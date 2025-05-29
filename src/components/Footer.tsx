@@ -18,7 +18,7 @@ const Footer = () => {
           </div>
           
           {/* Right - Links */}
-          <div className="flex items-center gap-6">
+          <div className="flex items-center gap-12">
             <a 
               href="#" 
               className="font-inter text-sm text-gray-400 hover:text-white transition-colors duration-300"
@@ -32,8 +32,9 @@ const Footer = () => {
               Contact
             </a>
             <div className="flex items-center gap-3">
-              <a 
-                href="https://twitter.com/brandmate_ai" 
+              <h1 className="text-sm text-semibold text-gray-400"> Founder - Harshvardhan </h1>
+	      <a 
+                href="https://twitter.com/iamhvsharma" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-2 bg-white/10 rounded-full hover:bg-white/20 transition-colors duration-300"
@@ -41,7 +42,7 @@ const Footer = () => {
                 <Twitter className="w-4 h-4" />
               </a>
               <a 
-                href="mailto:hello@brandmate.ai"
+                href="mailto:itshvsharma@gmail.com"
                 className="p-2 bg-white/10 rounded-full hover:bg-white/20 transition-colors duration-300 text-sm"
               >
                 ✉
